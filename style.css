@@ -31,6 +31,13 @@ hr {
     background-image: linear-gradient(to right, #7ad5f4, #515151, #7ad5f4);
 }
 
+.vertical{
+    border: 0;
+    height: 3px;
+    background: #515151;
+    background-image: linear-gradient(to right, #7ad5f4, #515151, #7ad5f4);
+}
+
 .axe {
     text-wrap:wrap;
 }
@@ -61,4 +68,15 @@ main {
     color: aliceblue;
     font-family: 'Sour Gummy';
     font-size: 25px;
+}
+
+.wolfie{
+    border-right: 3px solid transparent;
+    border-image: linear-gradient(#7ad5f4, #515151, #7ad5f4) 1;
+}
+
+.jaskier{
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(#7ad5f4, #515151, #7ad5f4) 1;
+    padding-left:4px;
 }
