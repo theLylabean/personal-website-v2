@@ -22,6 +22,7 @@ nav {
 .me2 {
     height:300px;
     width: auto;
+    border:3px solid white;
 }
 
 hr {
@@ -59,6 +60,7 @@ main > img{
     width: 300px;
     float: right;
     margin: 10px 0 10px 10px;
+    border:3px solid white;
 }
 
 main {
@@ -68,6 +70,7 @@ main {
     color: aliceblue;
     font-family: 'Sour Gummy';
     font-size: 25px;
+    padding-right:2em;
 }
 
 .wolfie{
@@ -101,4 +104,20 @@ main {
     text-align:center;
     font-family: 'Sour Gummy';
     font-size:1em;
+}
+
+.puppers{
+    border:3px solid rgb(6, 161, 251);
+}
+
+.saysay{
+    border:3px solid rgb(251, 6, 6);
+}
+
+.jaskybean{
+    border:3px solid rgb(149, 1, 255);
+}
+
+.bullseye{
+    border:3px solid white;
 }
