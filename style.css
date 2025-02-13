@@ -10,18 +10,13 @@ nav {
 }
 
 .logo {
-    font-family: 'Gill Sans';
+    font-family: 'Nosifer';
     font-size:3em;
 }
 
 .links {
-    font-family: 'Gill Sans';
+    font-family: 'Sour Gummy';
     font-size:2em;
-}
-
-.me {
-    height:300px;
-    width: auto;
 }
 
 .me2 {
@@ -38,4 +33,33 @@ hr {
 
 .axe {
     text-wrap:wrap;
+}
+
+main > img {
+    /* height: 500px; */
+    width: 300px;
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+main .quote {
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    font-family: 'Satisfy', cursive;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin-top: 4em;
+}
+
+main {
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: aliceblue;
+    font-family: 'Sour Gummy';
+    font-size: 25px;
 }
