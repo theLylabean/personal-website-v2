@@ -27,5 +27,34 @@
             <a href="contact.html">Contact</a>
         </div>
     </nav>
+    <main>
+        <section>
+            <h2>Contact Me</h2>
+        <!-- Create a simple form with a submit button that collects the users first and last name -->
+         <form action="./submission.html">
+            <h3>Enter your info</h3>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" placeholder="First Name" id="firstName"/>
+            <!-- firstName: "whatever name was typed"-->
+             <label for="lastName">Last name</label>
+             <input type="text" name="lastName" placeholder="Last Name" id="lastName"/>
+                <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" placeholder="Phone Number" id="phone"/>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email" id="email"/>
+
+                <label for="method of contact">Contact Method:</label>
+                <select name="pets" id="pets">
+                    <option value="none" selected disabled hidden>Choose A Preferred Method of Contact</option>
+                    <option value="email">Email</option>
+                    <option value="Phone">Phone</option>
+                    <option value="either">Both are fine</option>
+                </select>
+    
+             <input type="submit" value="submit"/>
+         </form>
+        </section>
+    </main>
 </body>
 </html>
