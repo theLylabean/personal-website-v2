@@ -121,3 +121,10 @@ main {
 .bullseye{
     border:3px solid white;
 }
+
+a {
+    border:5px solid white;
+    border-radius: 17px;
+    background:white;
+    color:pink
+}
