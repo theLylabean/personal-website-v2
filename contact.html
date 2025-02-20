@@ -21,37 +21,41 @@
             <h1>Lyla Lynn</h1>
         </div>
         <div class="links" style="text-align: right">
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="aboutme.html">About Me</a>
+            <a class="button" href="portfolio.html">Portfolio</a>
+            <a class="button" href="contact.html">Contact</a>
         </div>
     </nav>
     <main>
         <section>
-            <h2>Contact Me</h2>
-        <!-- Create a simple form with a submit button that collects the users first and last name -->
+            <h2><u>Contact Me</u></h2>
          <form action="./success.html">
-            <h3>Enter your info</h3>
+            <h3><u>Enter Your Info</u></h3>
             <label for="firstName">First Name:</label>
             <input type="text" name="firstName" placeholder="First Name" id="firstName"/>
+
              <label for="lastName">Last name</label>
              <input type="text" name="lastName" placeholder="Last Name" id="lastName"/>
-                <label for="phone">Phone Number</label>
+
+            <label for="phone">Phone Number</label>
             <input type="tel" name="phone" placeholder="Phone Number" id="phone"/>
 
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Email" id="email"/>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email" id="email"/>
 
-                <label for="method of contact">Contact Method:</label>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+            
+            <label for="method of contact">Contact Method:</label>
                 <select name="pets" id="pets">
                     <option value="none" selected disabled hidden>Choose A Preferred Method of Contact</option>
                     <option value="email">Email</option>
                     <option value="Phone">Phone</option>
                     <option value="either">Both are fine</option>
                 </select>
-    
-             <input type="submit" value="submit"/>
+            <br>
+             <input class="submit" type="submit" value="Submit"/>
          </form>
         </section>
     </main>
