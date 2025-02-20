@@ -14,18 +14,6 @@ nav {
     height:10em;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-h2 {
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
 .logo {
     font-family: 'Nosifer';
     font-size:3em;
@@ -40,18 +28,13 @@ h2 {
     height:300px;
     width: auto;
     border:3px solid white;
+    border-radius:10px;
 }
 
 hr {
     border: 0;
     height: 3px;
-    background: #515151;
-    background-image: linear-gradient(to right, #7ad5f4, #515151, #7ad5f4);
-}
-
-.vertical{
-    border: 0;
-    height: 3px;
+    width: auto;
     background: #515151;
     background-image: linear-gradient(to right, #7ad5f4, #515151, #7ad5f4);
 }
@@ -82,24 +65,46 @@ main > img{
 
 main {
     min-height: 100vh;
-    padding:5px 24px 10px;
+    padding:5px 24px;
     box-shadow: 0 0 12px -2px black;
     color: aliceblue;
     font-family: 'Sour Gummy';
     font-size: 25px;
-    padding-right:2em;
-    margin-top:200px;
+    margin-top:217px;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+}
+
+.wolfie, .salem, .jaskier {
+    display: inline-block;
+    width: 100%;
 }
 
 .wolfie{
-    border-right: 3px solid transparent;
-    border-image: linear-gradient(#7ad5f4, #515151, #7ad5f4) 1;
+    box-sizing: border-box;
+    border:white 3px solid;
+    border-radius:10px;
+    height:1145px;
+    width:411px;
+}
+
+.salem {
+    box-sizing: border-box;
+    border:white 3px solid;
+    border-radius:10px;
+    height:1145px;
+    width:411px;
 }
 
 .jaskier{
-    border-left: 3px solid transparent;
-    border-image: linear-gradient(#7ad5f4, #515151, #7ad5f4) 1;
-    padding-left:4px;
+    box-sizing: border-box;
+    border:white 3px solid;
+    border-radius:10px;
+    height:1145px;
+    width:411px;
 }
 
 .image{
@@ -126,18 +131,22 @@ main {
 
 .puppers{
     border:3px solid rgb(6, 161, 251);
+    border-radius:10px;
 }
 
 .saysay{
     border:3px solid rgb(251, 6, 6);
+    border-radius:10px;
 }
 
 .jaskybean{
     border:3px solid rgb(149, 1, 255);
+    border-radius:10px;
 }
 
 .bullseye{
     border:3px solid white;
+    border-radius:10px;
 }
 
 a {
@@ -159,7 +168,7 @@ form {
     align-items:center;
     justify-content: center;
     box-sizing:border-box;
-    width: 102%;
+    width: 100%;
     box-shadow: 0 0 12px -2px black;
     border: solid black 7px;
     border-radius: 20px;
@@ -169,7 +178,7 @@ form {
     color: black;
 }
 
-.submit {
+#submit {
     margin-bottom: 29.25px;
     border:3px solid pink;
     border-radius: 7px;
@@ -178,7 +187,7 @@ form {
     padding: 5px;
 }
 
-.submit:hover {
+#submit:hover {
     background: pink;
     color: white;
 }
